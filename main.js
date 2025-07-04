@@ -42,6 +42,6 @@ form.addEventListener("submit", function(e) {
   // 5. Appel de la fonction pour afficher la fiche
   ajouterProjet({ client, type, taches, date });
 
-  // 6. Réinitialisation du formulaire
+  /// 6. Réinitialisation du formulaire
   form.reset();
 });
